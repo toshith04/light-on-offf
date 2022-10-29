@@ -1,0 +1,43 @@
+
+
+html {
+ font-size: 62.5%;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color:#737373;
+}
+
+.main-heading {
+    background-color:#737373;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media (max-width:700px) {
+  .main-heading {
+    font-size: 55%;
+  }
+  button {
+    font-size: 55%;
+  }
+
+
+}
+
+@media (max-width:479px) {
+   .main-heading {
+    display: flex;
+    flex-direction: column;
+   }
+   button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   }
+}
